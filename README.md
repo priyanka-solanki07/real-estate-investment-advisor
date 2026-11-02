@@ -64,6 +64,14 @@ streamlit run app/streamlit_app.py
 
 Sidebar pages: **Predict**, **Explore**, **Insights**.
 
+Generate the PDF project report from the saved findings and figures:
+
+```bash
+python reports/generate_project_report.py
+```
+
+Output: `reports/real_estate_investment_report.pdf`.
+
 ## Deploy to Streamlit Community Cloud
 
 Push this project directory to GitHub, then create an app at
